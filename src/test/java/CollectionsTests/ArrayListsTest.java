@@ -31,6 +31,7 @@ public class ArrayListsTest {
         ArrayList<Integer> actual = arrayLists.addShit(original1, original2);
         original1.add(7);
         original1.add(7);
+        System.out.println(original1);
         // Then
         Assert.assertEquals(original1, actual);
     }
